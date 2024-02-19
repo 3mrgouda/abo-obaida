@@ -2,7 +2,14 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='container'>
+      <div className='content'>
+
+      </div>{/* lastfooter */}
+      <div className='lastfooter'>
+        
+      </div>{/* lastfooter */}
+    </div>
   )
 }
 
