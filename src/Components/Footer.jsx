@@ -5,7 +5,7 @@ function Footer() {
     <div className='container'>
       <div className='content'>
 
-      </div>{/* lastfooter */}
+      </div>{/* content */}
       <div className='lastfooter'>
         
       </div>{/* lastfooter */}
