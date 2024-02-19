@@ -18,6 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1>GEME</h1>
+      <h1>GEME</h1>
     </div>
   );
 }
