@@ -1,83 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-.container{
+.container1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 436px;
+    min-height: 100%;
     background-color: #101828;
     padding: 50px 80px;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 316px;
+    width: 100%;
+    height: 100%;
 }
-.links{
+
+.links {
     display: flex;
     flex-direction: row;
+    @apply w-[100%] flex-wrap lg:flex-nowrap
 }
 
-.links .part{
+.links .part {
     width: 25%;
+    /* background-color: white; */
+    @apply w-[50%] md:w-[50%] mx-auto;
+    @apply lg:ml-[20px];
 }
-.logo{
+
+.logo {
     width: 320px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    @apply mx-auto
 }
 
-
-.logo img{
+.logo img {
     margin-bottom: 30px;
+    @apply mb-[10px] m-0 lg:mb-[30px] mx-auto lg:mx-0
 }
 
-.logo p{
+.logo p {
     color: white;
+    @apply mx-auto text-center lg:text-start mb-[10px]
 }
 
-.links{
-    width: 832px;
+ul {
+    @apply sm:mx-auto flex flex-col justify-center items-center;
+    @apply lg:flex lg:flex-col lg:justify-start lg:items-start;
 }
 
-.part h1{
+.part h1 {
     font-size: 15px;
     text-transform: capitalize;
     color: #98A2B3;
     margin-bottom: 10px;
+    @apply sm:flex flex-col justify-center items-center;
+
+    @apply lg:flex lg:flex-col lg:justify-start lg:items-start;
 }
 
-.part li{
+.part li {
     list-style: none;
     margin-bottom: 20px;
 }
 
-ul li span{
+ul li span {
     padding: 5px;
     color: black;
     width: 42px;
-    height: 22px;
+    height: 42px;
     background-color: white;
-    border-radius: 40%; 
+    border-radius: 40%;
     text-transform: capitalize;
-    font-size:10px;
+    font-size: 10px;
     font-weight: bold;
 }
 
-.part li a{
+.part li a {
     text-decoration: none;
     color: #EAECF0;
     text-transform: capitalize;
 }
 
-
-.lastfooter{
+.lastfooter {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -86,6 +98,10 @@ ul li span{
     color: #98A2B3;
 }
 
-.lastfooter .social svg{
-margin: 0 10px;
+.lastfooter .social {
+    display: flex;
+}
+
+.lastfooter .social svg {
+    margin: 0 10px;
 }
