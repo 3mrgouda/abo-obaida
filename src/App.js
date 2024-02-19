@@ -1,10 +1,24 @@
 import React from 'react';
+import Navbar from './Components/Navbar.jsx';
+import Hero from './Components/Hero.jsx'
+import Services from './Components/Services.jsx'
+import Programs from './Components/Programs.jsx'
+import Tutors from './Components/Tutors.jsx'
+import Comment from './Components/Comment.jsx'
+import Blogs from './Components/Blogs.jsx'
+import Footer from './Components/Footer.jsx'
 function App() {
   return (
-    <div>
-      <h1 className='text-main'>Geme</h1>
-      <h1>mustfa</h1>
-    </div>
+    <>
+      <Navbar />     {/* Afsha*/}
+      <Hero />       {/* Amr*/}
+      <Services />       {/* Y1*/}
+      <Programs />       {/* Afsha*/}
+      <Tutors />       {/* M8*/}
+      <Comment />       {/* Y1*/}
+      <Blogs />       {/* GEMY*/}
+      <Footer />       {/* GEMY*/}
+    </>
   );
 }
 
