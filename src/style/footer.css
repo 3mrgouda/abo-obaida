@@ -38,7 +38,7 @@
 .logo {
     width: 320px;
     /* margin-right: 20px; */
-    @apply mx-auto
+    @apply m-0 mx-auto 
 }
 
 .logo img {
