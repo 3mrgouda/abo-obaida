@@ -12,7 +12,7 @@ function Members() {
         <Card image="/assets/Tutors/Mustafa.jpg" name="Mustafa Gamal" position="Full Stack Developer" description="Software Engineer with 10 years of experience. He has worked in various industries." />
         <Card image="/assets/Tutors/Y1.png" name="Youssef AbdElaziz" position="Full Stack Developer" description="Software Engineer with 10 years of experience. He has worked in various industries." />
         <Card image="/assets/Tutors/Afsha.jpg" name="Mohamed Magdy" position="Full Stack Developer" description="Software Engineer with 10 years of experience. He has worked in various industries." />
-        <Card image="/assets/Tutors/amr.jpg" name="amr goda " position="Full Stack Developer" description="Software Engineer with 10 years of experience. He has worked in various industries." />
+        <Card image="/assets/Tutors/Amr.jpg" name="amr goda " position="Full Stack Developer" description="Software Engineer with 10 years of experience. He has worked in various industries." />
 
       </div>
 
