@@ -57,11 +57,12 @@ ul {
 }
 
 .part h1 {
+    pointer-events: none;
     font-size: 15px;
     text-transform: capitalize;
     color: #98A2B3;
     margin-bottom: 10px;
-    @apply sm:flex flex-col justify-center items-center;
+    @apply flex justify-center items-center sm:flex flex-col justify-center items-center;
 
     @apply lg:flex lg:flex-col lg:justify-start lg:items-start;
 }
@@ -87,6 +88,11 @@ ul li span {
     text-decoration: none;
     color: #EAECF0;
     text-transform: capitalize;
+    transition: .3s;
+}
+
+.part li a:hover{
+    margin-left: 5px;
 }
 
 .lastfooter {
@@ -104,4 +110,5 @@ ul li span {
 
 .lastfooter .social svg {
     margin: 0 10px;
+    
 }
