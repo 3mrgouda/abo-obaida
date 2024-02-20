@@ -10,14 +10,14 @@ import Footer from './Components/Footer.jsx'
 function App() {
   return (
     <>
-      <Navbar />     {/* Afsha*/}  
+      <Navbar />     {/* Afsha*/}
       <Hero />       {/* Amr*/}
-      <Services />       {/* Y1*/}
+      <Services />       {/* Y1 Done*/}
       <Programs />       {/* Afsha*/}
-      <Members />       {/* M8*/}
-      <Comment />       {/* Y1*/}
-      <Blogs />       {/* GEMY*/}
-      <Footer />       {/* GEMY*/}
+      <Members />       {/* M8 Done*/}
+      <Comment />       {/* Y1 */}
+      <Blogs />       {/* GEMY Done*/}
+      <Footer />       {/* GEMY Done*/}
     </>
   );
 }

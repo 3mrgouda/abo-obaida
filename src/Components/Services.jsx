@@ -12,7 +12,7 @@ function Card({ title, icon, text }) {
         </div>
 
         <p className='text-left my-8 text-gray group-hover:text-white'>{text}</p>
-        <a href="#" className='text-main font-bold group-hover:text-white'>Learn More </a>
+        <a href="!#" className='text-main font-bold group-hover:text-white'>Learn More </a>
       </div>
     </>
   )
