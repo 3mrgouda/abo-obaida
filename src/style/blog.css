@@ -9,18 +9,20 @@
     width: 100%;
     height: 100%;
     display: flex;
-    @apply flex-col md:flex-col lg:flex-col xl:flex-row
+    @apply flex-col md:flex-col lg:flex-col xl:flex-row;
 }
 
 .blogs .first {
     width: 50%;
     height: 100%;
-    @apply w-[100%] flex flex-col text-center items-center justify-center md:flex-col lg:flex-row xl:flex-col xl:w-[50%] xl:justify-start xl:items-start xl:text-start;
+    display: flex;
+    @apply w-[100%] flex-col justify-center items-center md:flex-col md:justify-center md:items-center lg:flex-row lg:justify-center lg:items-center xl:w-[50%] xl:justify-start xl:items-start xl:flex-col;
 }
+
 .blogs .second2 {
     width: 50%;
     height: 100%;
-    @apply w-[100%] flex flex-col text-center items-center justify-center xl:w-[50%] xl:justify-start xl:items-start xl:text-start;
+    @apply w-[320px] mx-auto text-center flex flex-col justify-center items-center lg:w-[100%] xl:w-[50%] xl:justify-start xl:items-start xl:text-start;
 }
 
 .first .firstblog {
@@ -51,24 +53,26 @@
     height: 100%;
     display: flex;
     align-items: flex-end;
-    @apply mx-auto lg:mx-0
+    @apply mx-auto lg:mx-0;
 }
 
 .first .secondblog {
     height: 50%;
     display: flex;
-    @apply mb-5 md:mb-5 flex-col text-center lg:flex-row lg:text-start;
+    @apply mb-5 md:mb-5 flex-col text-center lg:flex-row lg:text-start xl:w-[100%];
 }
 
 
 .secondblog .img {
     width: 320px;
     height: 200px;
+
 }
 
 .secondblog .img img {
     width: 100%;
     height: 100%;
+
 }
 
 .secondblog .content {
@@ -83,10 +87,18 @@
     height: 100%;
     display: flex;
     align-items: flex-end;
-    @apply mx-auto lg:mx-0
+    @apply mx-auto lg:mx-0;
 }
 
 
+.second2 .img2 {
+    width: 100%;
+}
+
+.second2 .img2 img {
+    height: 240px;
+    width: 100%;
+}
 
 .second2 .content2 {
     display: flex;
@@ -99,9 +111,9 @@
     align-items: flex-end;
     height: 56px;
     margin-top: 3.24px;
-    @apply mx-auto xl:mx-0
+    @apply mx-auto xl:mx-0;
 }
 
-.end p{
-    @apply mx-1 lg:ml-5 lg:mx-0 
+.end p {
+    @apply mx-1 lg:ml-5 lg:mx-0;
 }
