@@ -8,7 +8,7 @@ function Hero() {
 
          <div className="text-hero w-[40%] grid gap-5 ">
           <img className='absolute left-[9em]  top-28 w-80 -z-10' src="assets/Hero/main-bg-circles-text.png" alt="" />
-          <img className='absolute right-[9em]  top-96 -z-10 w-80' src="assets/Hero/main-bg-circles-text.png" alt="" />
+          <img className='absolute right-[9em]  top-[45%] -z-10 w-80' src="assets/Hero/main-bg-circles-text.png" alt="" />
         <h2 className='text-6xl font-bold capitalize'>up your <span className='text-main'>skills</span><br/>
 to <span className='text-main'>advance</span>  your <br/> <span className='text-main'>career</span>  path</h2>
 <p className='text-[#646464] text-xl font-light text-[1em]'>Provides you with the latest online learning system and material <br/> that help your knowledge growing.</p>
