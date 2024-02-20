@@ -19,7 +19,7 @@ function UserComment({ name, info }) {
         <img src="/assets/Comment/Comment - Icon.png" alt="" />
         <h1 className="text-lg font-bold">Ed-Circle.</h1>
       </section>
-      <h1 className="text-6xl py-6 font-medium ">
+      <h1 className="lg:text-6xl md:text-2xl text-md px-4 py-6 font-medium ">
         Courses was fantastic! It is Master platform for those <br /> looking to start a new career, or need a refresher.
       </h1>
       <section className="py-8">
