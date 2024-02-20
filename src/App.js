@@ -15,7 +15,7 @@ function App() {
       <Services />       {/* Y1 Done*/}
       <Programs />       {/* Afsha*/}
       <Members />       {/* M8 Done*/}
-      <Comment />       {/* Y1 */}
+      <Comment />       {/* Y1 Done*/}
       <Blogs />       {/* GEMY Done*/}
       <Footer />       {/* GEMY Done*/}
     </>
