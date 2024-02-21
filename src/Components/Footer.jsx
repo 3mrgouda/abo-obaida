@@ -3,10 +3,8 @@ import '../style/footer.css'
 function Footer() {
   return (
     <div className='container1'>
-
-
       <div className='content flex-col lg:flex-row'>
-        <div className='logo lg:mb-0'>
+        <div className='logo flex justify-center items-center flex-col w-[100%] mb-4 lg:justify-start lg:w-[320px] lg:items-start lg:mb-0'>
           <img src="/assets/footerlogo.png" alt="" />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi.</p>
         </div>{/* logo */}
@@ -28,7 +26,7 @@ function Footer() {
             <ul>
               <li><a href="#!">about us</a></li>
               <li><a href="#!">careers</a></li>
-              <li><a href="#!">press</a> <span>new</span></li>
+              <li><a href="#!">press</a> <span className='rounded-full'>new</span></li>
               <li><a href="#!">news</a></li>
             </ul>
           </div>

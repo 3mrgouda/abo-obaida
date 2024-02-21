@@ -79,7 +79,7 @@ ul li span {
     width: 42px;
     height: 42px;
     background-color: white;
-    border-radius: 40%;
+    /* border-radius: 40%; */
     text-transform: capitalize;
     font-size: 10px;
     font-weight: bold;
