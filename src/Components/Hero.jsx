@@ -22,7 +22,7 @@ function Hero() {
           <div className="skills flex absolute top-[58%]">
 
             <div className="icon flex items-center mr-6">
-              <img className='mr-1 w-[2em] h-[2em]' src="/assets/Hero/Public-speaking.png" alt="" />
+              <img className='mr-1 w-[2em] h-[2em]' src="/assets/Hero/Public-speaking.png" alt="Public-speaking" />
               <p className='text-[#1D2939] opacity-80 text-[.9em]'>Public Speaking</p>
             </div>
 
