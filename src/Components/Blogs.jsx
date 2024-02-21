@@ -8,7 +8,7 @@ function Blogs() {
         <div className='first'>
           <div className='firstblog mb-[30px]'>
             <div className='img'>
-              <img src="/assets/Blog/blog1.png" className='' alt="" />
+              <img src="/assets/Blog/blog2.png" alt="" />
             </div>
             <div className='content'>
               <p className='text-[#6941C6]'>November 16, 2014</p>
@@ -22,7 +22,7 @@ function Blogs() {
           </div>{/* firstblog */}
           <div className='secondblog'>
             <div className='img'>
-              <img src="/assets/Blog/blog2.png" className='' alt="" />
+              <img src="/assets/Blog/blog2.png" alt="" />
             </div>
             <div className='content'>
               <p className='text-[#6941C6]'>September 24, 2017</p>

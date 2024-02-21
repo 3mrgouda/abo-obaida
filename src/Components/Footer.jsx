@@ -3,9 +3,9 @@ import '../style/footer.css'
 function Footer() {
   return (
     <div className='container1'>
-      
-      
-      <div className='content flex-col lg:flex-row'>  
+
+
+      <div className='content flex-col lg:flex-row'>
         <div className='logo lg:mb-0'>
           <img src="/assets/footerlogo.png" alt="" />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi.</p>
