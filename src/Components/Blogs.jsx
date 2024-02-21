@@ -8,8 +8,8 @@ function Blogs() {
         <div className='first'>
           <div className='firstblog mb-[30px]'>
             <div className='img'>
-              <img src="/assets/Blog/blog2.png" alt="" />
-            </div>
+              <img src="assets/Blog/blog1.png" className='' alt="" />
+              </div>{/* assets */}
             <div className='content'>
               <p className='text-[#6941C6]'>November 16, 2014</p>
               <h1 className='font-bold mt-3 '>Three Pillars of User Delight</h1>
@@ -22,7 +22,7 @@ function Blogs() {
           </div>{/* firstblog */}
           <div className='secondblog'>
             <div className='img'>
-              <img src="/assets/Blog/blog2.png" alt="" />
+              <img src="/assets/Blog/blog2.png" className='' alt="" />
             </div>
             <div className='content'>
               <p className='text-[#6941C6]'>September 24, 2017</p>
