@@ -1,0 +1,119 @@
+.container2 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    @apply flex-col md:flex-col lg:flex-col xl:flex-row;
+}
+
+.blogs .first {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    @apply w-[100%] flex-col justify-center items-center md:flex-col md:justify-center md:items-center lg:flex-row lg:justify-center lg:items-center xl:w-[50%] xl:justify-start xl:items-start xl:flex-col;
+}
+
+.blogs .second2 {
+    width: 50%;
+    height: 100%;
+    @apply w-[320px] mx-auto text-center flex flex-col justify-center items-center lg:w-[100%] xl:w-[50%] xl:justify-start xl:items-start xl:text-start;
+}
+
+.first .firstblog {
+    display: flex;
+    height: 50%;
+    @apply flex-col text-center lg:flex-row lg:text-start;
+}
+
+.firstblog .img {
+    width: 320px;
+    height: 200px;
+}
+
+.firstblog .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.firstblog .content {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.firstblog .content .end {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    @apply mx-auto lg:mx-0;
+}
+
+.first .secondblog {
+    height: 50%;
+    display: flex;
+    @apply mb-5 md:mb-5 flex-col text-center lg:flex-row lg:text-start xl:w-[100%];
+}
+
+
+.secondblog .img {
+    width: 320px;
+    height: 200px;
+
+}
+
+.secondblog .img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.secondblog .content {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.secondblog .content .end {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    @apply mx-auto lg:mx-0;
+}
+
+
+.second2 .img2 {
+    width: 100%;
+}
+
+.second2 .img2 img {
+    height: 240px;
+    width: 100%;
+}
+
+.second2 .content2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.second2 .content2 .end2 {
+    display: flex;
+    align-items: flex-end;
+    height: 56px;
+    margin-top: 3.24px;
+    @apply mx-auto xl:mx-0;
+}
+
+.end p {
+    @apply mx-1 lg:ml-5 lg:mx-0;
+}

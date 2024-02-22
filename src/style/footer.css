@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    background-color: #101828;
+    padding: 50px 80px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    @apply w-[100%] flex-wrap lg:flex-nowrap
+}
+
+.links .part {
+    width: 25%;
+    /* background-color: white; */
+    @apply w-[50%] md:w-[50%] mx-auto;
+    @apply lg:ml-[20px];
+}
+
+.logo {
+    width: 320px;
+    /* margin-right: 20px; */
+    @apply m-0 mx-auto 
+}
+
+.logo img {
+    margin-bottom: 30px;
+    @apply mb-[10px] m-0 lg:mb-[30px] mx-auto lg:mx-0
+}
+
+.logo p {
+    color: white;
+    @apply mx-auto text-center lg:text-start mb-[10px]
+}
+
+ul {
+    @apply sm:mx-auto flex flex-col justify-center items-center;
+    @apply lg:flex lg:flex-col lg:justify-start lg:items-start;
+}
+
+.part h1 {
+    pointer-events: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #98A2B3;
+    margin-bottom: 10px;
+    @apply flex justify-center items-center sm:flex flex-col justify-center items-center;
+
+    @apply lg:flex lg:flex-col lg:justify-start lg:items-start;
+}
+
+.part li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul li span {
+    padding: 5px;
+    color: black;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    /* border-radius: 40%; */
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.part li a {
+    text-decoration: none;
+    color: #EAECF0;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.part li a:hover{
+    margin-left: 5px;
+}
+
+.lastfooter {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    color: #98A2B3;
+}
+
+.lastfooter .social {
+    display: flex;
+}
+
+.lastfooter .social svg {
+    margin: 0 10px;
+    
+}

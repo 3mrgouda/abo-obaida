@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar.jsx';
 import Hero from './Components/Hero.jsx'
 import Services from './Components/Services.jsx'
 import Programs from './Components/Programs.jsx'
-import Tutors from './Components/Tutors.jsx'
+import Members from './Components/Members.jsx'
 import Comment from './Components/Comment.jsx'
 import Blogs from './Components/Blogs.jsx'
 import Footer from './Components/Footer.jsx'
@@ -12,12 +12,12 @@ function App() {
     <>
       <Navbar />     {/* Afsha*/}
       <Hero />       {/* Amr*/}
-      <Services />       {/* Y1*/}
+      <Services />       {/* Y1 Done*/}
       <Programs />       {/* Afsha*/}
-      <Tutors />       {/* M8*/}
-      <Comment />       {/* Y1*/}
-      <Blogs />       {/* GEMY*/}
-      <Footer />       {/* GEMY*/}
+      <Members />       {/* M8 Done*/}
+      <Comment />       {/* Y1 Done*/}
+      <Blogs />       {/* GEMY Done*/}
+      <Footer />       {/* GEMY Done*/}
     </>
   );
 }
