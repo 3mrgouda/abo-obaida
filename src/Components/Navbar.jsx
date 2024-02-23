@@ -11,26 +11,26 @@ function Navbar() {
                 <h1 className=" text-xl mb-3text-gray-300rounded-md font-bold"> Ed-Circle.</h1>
               </div>
 
-              <div className='mt-2 ml-2  d-flex  mb-3 ml-4 'id='v'>
+              <div className='  d-flex   ' id='v'>
                 <input type="search" name="" id="" placeholder=' what to learn ?' className='border-0' />
 
               
               
                 <div class="relative ">
 
-                  <button class="hover:bg-blue-700 w-100 h-5 mt-2  text-purple-600  font-bold p-2 rounded inline-flex items-center">
+                  <button class="hover:bg-blue-700 w-100  text-purple-600  font-bold rounded inline-flex items-center">
                     <span>Explore</span>
                     <svg class="fill-current w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M10 11l6-6H4z" />
                     </svg>
                   </button>
-
                   <ul class="absolute hidden bg-white text-purple-600 pt-1 w-32 rounded shadow-lg">
                     <li><a class="hover:bg-gray-200 block px-4 py-2" href="#">Option 1</a></li>
                     <li><a class="hover:bg-gray-200 block px-4 py-2" href="#">Option 2</a></li>
                     <li><a class="hover:bg-gray-200 block px-4 py-2" href="#">Option 3</a></li>
                   </ul>
                 </div>
+                
                 </div>
 
               
