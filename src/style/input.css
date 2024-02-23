@@ -6,27 +6,3 @@
 *{
     font-family: 'Inter', sans-serif;
 }
-
-h6{
-font-family: cairo;
-}
-input{
-    border: solid black 1px;
-    border-radius: 5px;
-    text-wrap: nowrap;
-}
-nav{
-    display: flex;
-    
-}
-ul{
-    display: flex;
-}
-s{
-    border: solid black 1px;
-    border-radius: 5px;
-}
-#v{
-    border: solid black 1px;
-    border-radius: 5px;
-}
