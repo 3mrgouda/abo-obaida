@@ -12,9 +12,7 @@ function Navbar() {
               </div>
 
               <div className='mt-2 ml-2  d-flex  mb-3 ml-4 'id='v'>
-                <input type="search" name="" id="" placeholder=' what to learn ?' className='border-0' />
-
-              
+                <input type="search" name="" id="" placeholder=' what to learn ?' className='border-0' />              
               
                 <div class="relative ">
 
