@@ -25,8 +25,8 @@ function Hero() {
         <div className="container flex justify-between items-center">
 
           {/* text section area */}
-          <div className='flex flex-col text-left  gap-3 md:w-3/4 2xl:w-2/3 '>
-            <h2 className='2xl:leading-[1.5] text-5xl 2xl:text-7xl max-lg:text-4xl font-bold capitalize leading-[1.3]'>up your <span className='text-main'>skills</span><br className='2xl:hidden' />
+          <div className='flex  flex-col text-left  gap-3 md:w-3/4 2xl:w-2/3 '>
+            <h2 className='2xl:leading-[1.5] max-sm:text-5xl  text-5xl 2xl:text-7xl max-lg:text-4xl font-bold capitalize leading-[1.3]'>up your <span className='text-main'>skills</span><br className='2xl:hidden' />
               to <span className='text-main'>advance</span>  your <br className='2xl:hidden' /> <span className='text-main'>career</span> path</h2>
             <p className='text-gray  text-xl font-light max-lg:text-[.9em] 2xl:text-2xl 2xl:font-extralight'>Provides you with the latest online learning system and material <br className='hidden ' />  that help your knowledge growing.</p>
             <div className="grid grid-cols-2 gap-16 max-lg:text-xs 2xl:gap-10 2xl:w-1/2 text-xl">
@@ -40,7 +40,7 @@ function Hero() {
 
 
           {/* main img */}
-          <div className='grid place-items-center max-lg:place-items-end max-lg:w-full'>
+          <div className='grid place-items-center max-lg:place-items-end max-lg:w-full max-sm:hidden'>
             <div className="ringl border-main border-2 border-solid 2xl:w-[25%] aspect-square absolute rounded-full top-16 2xl:top-36 xl:top-36 xl:right-48 xl:w-[29%] -z-10 right-[17rem] 2xl:right-[17rem]"></div>
             <img className='bg-main rounded-full w-3/4 aspect-square' src="assets/Hero/obaida.png" alt="" />
           </div>
@@ -51,7 +51,7 @@ function Hero() {
           <img className='absolute max-lg:hidden right-[550px] xl:w-[15%] 2xl:right-[550px]  xl:right-[420px]' src="assets/Hero/video.png" alt="" />
           <img className='absolute max-lg:hidden right-40 top-96 xl:top-96 xl:right-32 xl:w-[15%]' src="assets/Hero/tutors-card.png" alt="" />
           {/* skills section */}
-          <div className="skills flex absolute  2xl:top-[65%] xl:top-[535px] xl:text-[17px] max-lg:top-[490px] max-lg:text-[10px]">
+          <div className="skills flex absolute max-[440px]:hidden max-sm:top-[425px] max-sm:left-10  2xl:top-[65%] xl:top-[535px] xl:text-[17px] max-lg:top-[490px] max-lg:text-[10px]">
             {
               Skills.map(({ id, img, p }) => (
                 <div key={id} className="icon flex items-center mr-6">
@@ -63,8 +63,8 @@ function Hero() {
             }
           </div>
           {/* circles bg */}
-          <div className="circle bg-main w-10 max-lg:w-7 max-lg:right-96 max-lg:top-[500px] aspect-square rounded-full absolute top-[450px] 2xl:top-[600px] xl:top-[500px] 2xl:right-[650px] xl:right-[500px]"></div>
-          <div className="circle bg-main w-4  max-lg:w-3 max-lg:right-36 max-lg:top-[500px] aspect-square rounded-full absolute top-[600px] right-[510px] xl:right-[346px] 2xl:right-[418px] xl:top-[550px] 2xl:top-[670px]"></div>
+          <div className="circle bg-main w-10 max-[400px]:hidden max-[800px]:right-[100px] max-[800px]:top-[510px] max-lg:w-7 max-lg:right-96 max-lg:top-[500px] aspect-square rounded-full absolute top-[450px] 2xl:top-[600px] xl:top-[500px] 2xl:right-[650px] xl:right-[500px]"></div>
+          <div className="circle bg-main w-4  max-[400px]:hidden  max-lg:w-3 max-lg:right-36 max-lg:top-[500px] aspect-square rounded-full absolute top-[600px] right-[510px] xl:right-[346px] 2xl:right-[418px] xl:top-[550px] 2xl:top-[670px]"></div>
         </div>
         <section className='bottom-hero flex items-center justify-center my-16  '>
           <img className='w-full' src="assets/Hero/bottom-hero.png" alt="" />
